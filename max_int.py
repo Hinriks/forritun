@@ -7,7 +7,7 @@
 
 # Fill in the missing code
 max_int = 0
-while True:
+while True: #Compare each new number with max_int to see if its higher, if so replace it.
     num_int = int(input("Input a number: "))    # Do not change this line
     if num_int >= 0:
         if num_int > max_int:
